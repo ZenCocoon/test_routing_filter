@@ -1,0 +1,366 @@
+/!\ FAILSAFE /!\  2010-09-09 11:16:17 +0300
+  Status: 500 Internal Server Error
+  no such file to load -- sqlite3
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/activesupport-2.3.9/lib/active_support/dependencies.rb:182:in `require'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/activesupport-2.3.9/lib/active_support/dependencies.rb:182:in `block in require'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/activesupport-2.3.9/lib/active_support/dependencies.rb:547:in `new_constants_in'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/activesupport-2.3.9/lib/active_support/dependencies.rb:182:in `require'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/activesupport-2.3.9/lib/active_support/core_ext/kernel/requires.rb:7:in `block in require_library_or_gem'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/activesupport-2.3.9/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/activesupport-2.3.9/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/activerecord-2.3.9/lib/active_record/connection_adapters/sqlite3_adapter.rb:10:in `sqlite3_connection'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/activerecord-2.3.9/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/activerecord-2.3.9/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/activerecord-2.3.9/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `block (2 levels) in checkout'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/activerecord-2.3.9/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/activerecord-2.3.9/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `block in checkout'
+    /Users/seb/.rvm/rubies/ruby-1.9.2-rc2/lib/ruby/1.9.1/monitor.rb:201:in `mon_synchronize'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/activerecord-2.3.9/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/activerecord-2.3.9/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/activerecord-2.3.9/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/activerecord-2.3.9/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/activerecord-2.3.9/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/activerecord-2.3.9/lib/active_record/query_cache.rb:9:in `cache'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/activerecord-2.3.9/lib/active_record/query_cache.rb:28:in `call'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/activerecord-2.3.9/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/actionpack-2.3.9/lib/action_controller/string_coercion.rb:25:in `call'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/actionpack-2.3.9/lib/action_controller/params_parser.rb:15:in `call'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/actionpack-2.3.9/lib/action_controller/session/cookie_store.rb:100:in `call'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/actionpack-2.3.9/lib/action_controller/failsafe.rb:26:in `call'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/rack-1.1.0/lib/rack/lock.rb:11:in `block in call'
+    <internal:prelude>:10:in `synchronize'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/actionpack-2.3.9/lib/action_controller/dispatcher.rb:114:in `block in call'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/actionpack-2.3.9/lib/action_controller/reloader.rb:34:in `run'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/actionpack-2.3.9/lib/action_controller/dispatcher.rb:108:in `call'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/rails-2.3.9/lib/rails/rack/static.rb:31:in `call'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `block in call'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/rails-2.3.9/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/rack-1.1.0/lib/rack/handler/webrick.rb:48:in `service'
+    /Users/seb/.rvm/rubies/ruby-1.9.2-rc2/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /Users/seb/.rvm/rubies/ruby-1.9.2-rc2/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /Users/seb/.rvm/rubies/ruby-1.9.2-rc2/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+/!\ FAILSAFE /!\  2010-09-09 11:16:32 +0300
+  Status: 500 Internal Server Error
+  no such file to load -- sqlite3
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/activesupport-2.3.9/lib/active_support/dependencies.rb:182:in `require'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/activesupport-2.3.9/lib/active_support/dependencies.rb:182:in `block in require'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/activesupport-2.3.9/lib/active_support/dependencies.rb:547:in `new_constants_in'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/activesupport-2.3.9/lib/active_support/dependencies.rb:182:in `require'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/activesupport-2.3.9/lib/active_support/core_ext/kernel/requires.rb:7:in `block in require_library_or_gem'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/activesupport-2.3.9/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/activesupport-2.3.9/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/activerecord-2.3.9/lib/active_record/connection_adapters/sqlite3_adapter.rb:10:in `sqlite3_connection'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/activerecord-2.3.9/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/activerecord-2.3.9/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/activerecord-2.3.9/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `block (2 levels) in checkout'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/activerecord-2.3.9/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/activerecord-2.3.9/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `block in checkout'
+    /Users/seb/.rvm/rubies/ruby-1.9.2-rc2/lib/ruby/1.9.1/monitor.rb:201:in `mon_synchronize'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/activerecord-2.3.9/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/activerecord-2.3.9/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/activerecord-2.3.9/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/activerecord-2.3.9/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/activerecord-2.3.9/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/activerecord-2.3.9/lib/active_record/query_cache.rb:9:in `cache'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/activerecord-2.3.9/lib/active_record/query_cache.rb:28:in `call'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/activerecord-2.3.9/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/actionpack-2.3.9/lib/action_controller/string_coercion.rb:25:in `call'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/actionpack-2.3.9/lib/action_controller/params_parser.rb:15:in `call'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/actionpack-2.3.9/lib/action_controller/session/cookie_store.rb:100:in `call'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/actionpack-2.3.9/lib/action_controller/failsafe.rb:26:in `call'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/rack-1.1.0/lib/rack/lock.rb:11:in `block in call'
+    <internal:prelude>:10:in `synchronize'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/actionpack-2.3.9/lib/action_controller/dispatcher.rb:114:in `block in call'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/actionpack-2.3.9/lib/action_controller/reloader.rb:34:in `run'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/actionpack-2.3.9/lib/action_controller/dispatcher.rb:108:in `call'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/rails-2.3.9/lib/rails/rack/static.rb:31:in `call'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `block in call'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/rails-2.3.9/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/rack-1.1.0/lib/rack/handler/webrick.rb:48:in `service'
+    /Users/seb/.rvm/rubies/ruby-1.9.2-rc2/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /Users/seb/.rvm/rubies/ruby-1.9.2-rc2/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /Users/seb/.rvm/rubies/ruby-1.9.2-rc2/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+DEPRECATION WARNING: Object#returning has been deprecated in favor of Object#tap. (called from extract_request_environment at /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/routing-filter-0.1.6/lib/routing_filter/adapters/rails_2.rb:61)
+
+
+Processing PublicController#index (for 127.0.0.1 at 2010-09-09 11:17:37) [GET]
+Rendering public/index
+DEPRECATION WARNING: Object#returning has been deprecated in favor of Object#tap. (called from root_url at (eval):4)
+
+ActionView::TemplateError (wrong number of arguments (0 for 1)) on line #2 of app/views/public/index.html.erb:
+1: Home
+2: <%= root_url %>
+
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/routing-filter-0.1.6/lib/routing_filter/filters/locale.rb:55:in `around_generate'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/routing-filter-0.1.6/lib/routing_filter/filter.rb:11:in `run'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/routing-filter-0.1.6/lib/routing_filter/chain.rb:9:in `run'
+    (eval):4:in `block in root_url'
+    (eval):4:in `root_url'
+    app/views/public/index.html.erb:2
+    <internal:prelude>:10:in `synchronize'
+    /Users/seb/.rvm/rubies/ruby-1.9.2-rc2/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /Users/seb/.rvm/rubies/ruby-1.9.2-rc2/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /Users/seb/.rvm/rubies/ruby-1.9.2-rc2/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (22.4ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Object#returning has been deprecated in favor of Object#tap. (called from extract_request_environment at /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/routing-filter-0.1.6/lib/routing_filter/adapters/rails_2.rb:61)
+
+
+Processing PublicController#index (for 127.0.0.1 at 2010-09-09 11:17:50) [GET]
+Rendering public/index
+DEPRECATION WARNING: Object#returning has been deprecated in favor of Object#tap. (called from root_path at (eval):4)
+
+ActionView::TemplateError (wrong number of arguments (0 for 1)) on line #2 of app/views/public/index.html.erb:
+1: Home
+2: <%= root_path %>
+
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/routing-filter-0.1.6/lib/routing_filter/filters/locale.rb:55:in `around_generate'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/routing-filter-0.1.6/lib/routing_filter/filter.rb:11:in `run'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/routing-filter-0.1.6/lib/routing_filter/chain.rb:9:in `run'
+    (eval):4:in `block in root_path'
+    (eval):4:in `root_path'
+    app/views/public/index.html.erb:2
+    <internal:prelude>:10:in `synchronize'
+    /Users/seb/.rvm/rubies/ruby-1.9.2-rc2/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /Users/seb/.rvm/rubies/ruby-1.9.2-rc2/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /Users/seb/.rvm/rubies/ruby-1.9.2-rc2/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (21.6ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Object#returning has been deprecated in favor of Object#tap. (called from extract_request_environment at /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/routing-filter-0.1.6/lib/routing_filter/adapters/rails_2.rb:61)
+
+
+Processing PublicController#index (for 127.0.0.1 at 2010-09-09 11:18:03) [GET]
+Rendering public/index
+DEPRECATION WARNING: Object#returning has been deprecated in favor of Object#tap. (called from root_path at (eval):4)
+
+ActionView::TemplateError (wrong number of arguments (0 for 1)) on line #1 of app/views/public/index.html.erb:
+1: <%= root_path %>
+
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/routing-filter-0.1.6/lib/routing_filter/filters/locale.rb:55:in `around_generate'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/routing-filter-0.1.6/lib/routing_filter/filter.rb:11:in `run'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/routing-filter-0.1.6/lib/routing_filter/chain.rb:9:in `run'
+    (eval):4:in `block in root_path'
+    (eval):4:in `root_path'
+    app/views/public/index.html.erb:1
+    <internal:prelude>:10:in `synchronize'
+    /Users/seb/.rvm/rubies/ruby-1.9.2-rc2/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /Users/seb/.rvm/rubies/ruby-1.9.2-rc2/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /Users/seb/.rvm/rubies/ruby-1.9.2-rc2/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (20.3ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Object#returning has been deprecated in favor of Object#tap. (called from extract_request_environment at /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/routing-filter-0.1.6/lib/routing_filter/adapters/rails_2.rb:61)
+
+
+Processing PublicController#index (for 127.0.0.1 at 2010-09-09 11:18:11) [GET]
+Rendering public/index
+DEPRECATION WARNING: Object#returning has been deprecated in favor of Object#tap. (called from root_path at (eval):4)
+
+ActionView::TemplateError (wrong number of arguments (0 for 1)) on line #1 of app/views/public/index.html.erb:
+1: <%= root_path() %>
+
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/routing-filter-0.1.6/lib/routing_filter/filters/locale.rb:55:in `around_generate'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/routing-filter-0.1.6/lib/routing_filter/filter.rb:11:in `run'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/routing-filter-0.1.6/lib/routing_filter/chain.rb:9:in `run'
+    (eval):4:in `block in root_path'
+    (eval):4:in `root_path'
+    app/views/public/index.html.erb:1
+    <internal:prelude>:10:in `synchronize'
+    /Users/seb/.rvm/rubies/ruby-1.9.2-rc2/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /Users/seb/.rvm/rubies/ruby-1.9.2-rc2/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /Users/seb/.rvm/rubies/ruby-1.9.2-rc2/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (20.4ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Object#returning has been deprecated in favor of Object#tap. (called from extract_request_environment at /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/routing-filter-0.1.6/lib/routing_filter/adapters/rails_2.rb:61)
+
+
+Processing PublicController#index (for 127.0.0.1 at 2010-09-09 11:18:16) [GET]
+Rendering public/index
+Completed in 33ms (View: 32, DB: 0) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Object#returning has been deprecated in favor of Object#tap. (called from extract_request_environment at /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/routing-filter-0.1.6/lib/routing_filter/adapters/rails_2.rb:61)
+
+
+Processing PublicController#index (for 127.0.0.1 at 2010-09-09 11:18:23) [GET]
+Rendering public/index
+DEPRECATION WARNING: Object#returning has been deprecated in favor of Object#tap. (called from root_path at (eval):4)
+
+ActionView::TemplateError (wrong number of arguments (0 for 1)) on line #1 of app/views/public/index.html.erb:
+1: <%= root_path %>
+
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/routing-filter-0.1.6/lib/routing_filter/filters/locale.rb:55:in `around_generate'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/routing-filter-0.1.6/lib/routing_filter/filter.rb:11:in `run'
+    /Users/seb/.rvm/gems/ruby-1.9.2-rc2/gems/routing-filter-0.1.6/lib/routing_filter/chain.rb:9:in `run'
+    (eval):4:in `block in root_path'
+    (eval):4:in `root_path'
+    app/views/public/index.html.erb:1
+    <internal:prelude>:10:in `synchronize'
+    /Users/seb/.rvm/rubies/ruby-1.9.2-rc2/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /Users/seb/.rvm/rubies/ruby-1.9.2-rc2/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /Users/seb/.rvm/rubies/ruby-1.9.2-rc2/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (49.0ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Object#returning has been deprecated in favor of Object#tap. (called from extract_request_environment at /Users/seb/tmp/tmp/test_routing_filter/vendor/gems/routing-filter-0.1.6/lib/routing_filter/adapters/rails_2.rb:61)
+
+
+Processing PublicController#index (for 127.0.0.1 at 2010-09-09 11:19:35) [GET]
+Rendering public/index
+DEPRECATION WARNING: Object#returning has been deprecated in favor of Object#tap. (called from root_path at (eval):4)
+
+ActionView::TemplateError (wrong number of arguments (0 for 1)) on line #1 of app/views/public/index.html.erb:
+1: <%= root_path %>
+
+    vendor/gems/routing-filter-0.1.6/lib/routing_filter/filters/locale.rb:55:in `around_generate'
+    vendor/gems/routing-filter-0.1.6/lib/routing_filter/filter.rb:11:in `run'
+    vendor/gems/routing-filter-0.1.6/lib/routing_filter/chain.rb:9:in `run'
+    (eval):4:in `block in root_path'
+    (eval):4:in `root_path'
+    app/views/public/index.html.erb:1
+    <internal:prelude>:10:in `synchronize'
+    /Users/seb/.rvm/rubies/ruby-1.9.2-rc2/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /Users/seb/.rvm/rubies/ruby-1.9.2-rc2/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /Users/seb/.rvm/rubies/ruby-1.9.2-rc2/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (44.4ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Object#returning has been deprecated in favor of Object#tap. (called from extract_request_environment at /Users/seb/tmp/tmp/test_routing_filter/vendor/gems/routing-filter-0.1.6/lib/routing_filter/adapters/rails_2.rb:61)
+
+
+Processing PublicController#index (for 127.0.0.1 at 2010-09-09 11:19:37) [GET]
+Rendering public/index
+DEPRECATION WARNING: Object#returning has been deprecated in favor of Object#tap. (called from root_path at (eval):4)
+
+ActionView::TemplateError (wrong number of arguments (0 for 1)) on line #1 of app/views/public/index.html.erb:
+1: <%= root_path %>
+
+    vendor/gems/routing-filter-0.1.6/lib/routing_filter/filters/locale.rb:55:in `around_generate'
+    vendor/gems/routing-filter-0.1.6/lib/routing_filter/filter.rb:11:in `run'
+    vendor/gems/routing-filter-0.1.6/lib/routing_filter/chain.rb:9:in `run'
+    (eval):4:in `block in root_path'
+    (eval):4:in `root_path'
+    app/views/public/index.html.erb:1
+    <internal:prelude>:10:in `synchronize'
+    /Users/seb/.rvm/rubies/ruby-1.9.2-rc2/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /Users/seb/.rvm/rubies/ruby-1.9.2-rc2/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /Users/seb/.rvm/rubies/ruby-1.9.2-rc2/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (49.8ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Object#returning has been deprecated in favor of Object#tap. (called from extract_request_environment at /Users/seb/tmp/tmp/test_routing_filter/vendor/gems/routing-filter-0.1.6/lib/routing_filter/adapters/rails_2.rb:61)
+
+
+Processing PublicController#index (for 127.0.0.1 at 2010-09-09 11:19:38) [GET]
+Rendering public/index
+DEPRECATION WARNING: Object#returning has been deprecated in favor of Object#tap. (called from root_path at (eval):4)
+
+ActionView::TemplateError (wrong number of arguments (0 for 1)) on line #1 of app/views/public/index.html.erb:
+1: <%= root_path %>
+
+    vendor/gems/routing-filter-0.1.6/lib/routing_filter/filters/locale.rb:55:in `around_generate'
+    vendor/gems/routing-filter-0.1.6/lib/routing_filter/filter.rb:11:in `run'
+    vendor/gems/routing-filter-0.1.6/lib/routing_filter/chain.rb:9:in `run'
+    (eval):4:in `block in root_path'
+    (eval):4:in `root_path'
+    app/views/public/index.html.erb:1
+    <internal:prelude>:10:in `synchronize'
+    /Users/seb/.rvm/rubies/ruby-1.9.2-rc2/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /Users/seb/.rvm/rubies/ruby-1.9.2-rc2/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /Users/seb/.rvm/rubies/ruby-1.9.2-rc2/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (20.6ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Object#returning has been deprecated in favor of Object#tap. (called from extract_request_environment at /Users/seb/tmp/tmp/test_routing_filter/vendor/gems/routing-filter-0.1.6/lib/routing_filter/adapters/rails_2.rb:61)
+
+
+Processing PublicController#index (for 127.0.0.1 at 2010-09-09 11:19:38) [GET]
+Rendering public/index
+DEPRECATION WARNING: Object#returning has been deprecated in favor of Object#tap. (called from root_path at (eval):4)
+
+ActionView::TemplateError (wrong number of arguments (0 for 1)) on line #1 of app/views/public/index.html.erb:
+1: <%= root_path %>
+
+    vendor/gems/routing-filter-0.1.6/lib/routing_filter/filters/locale.rb:55:in `around_generate'
+    vendor/gems/routing-filter-0.1.6/lib/routing_filter/filter.rb:11:in `run'
+    vendor/gems/routing-filter-0.1.6/lib/routing_filter/chain.rb:9:in `run'
+    (eval):4:in `block in root_path'
+    (eval):4:in `root_path'
+    app/views/public/index.html.erb:1
+    <internal:prelude>:10:in `synchronize'
+    /Users/seb/.rvm/rubies/ruby-1.9.2-rc2/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /Users/seb/.rvm/rubies/ruby-1.9.2-rc2/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /Users/seb/.rvm/rubies/ruby-1.9.2-rc2/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (20.7ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Object#returning has been deprecated in favor of Object#tap. (called from extract_request_environment at /Users/seb/tmp/tmp/test_routing_filter/vendor/gems/routing-filter-0.1.6/lib/routing_filter/adapters/rails_2.rb:61)
+
+
+Processing PublicController#index (for 127.0.0.1 at 2010-09-09 11:19:38) [GET]
+Rendering public/index
+DEPRECATION WARNING: Object#returning has been deprecated in favor of Object#tap. (called from root_path at (eval):4)
+
+ActionView::TemplateError (wrong number of arguments (0 for 1)) on line #1 of app/views/public/index.html.erb:
+1: <%= root_path %>
+
+    vendor/gems/routing-filter-0.1.6/lib/routing_filter/filters/locale.rb:55:in `around_generate'
+    vendor/gems/routing-filter-0.1.6/lib/routing_filter/filter.rb:11:in `run'
+    vendor/gems/routing-filter-0.1.6/lib/routing_filter/chain.rb:9:in `run'
+    (eval):4:in `block in root_path'
+    (eval):4:in `root_path'
+    app/views/public/index.html.erb:1
+    <internal:prelude>:10:in `synchronize'
+    /Users/seb/.rvm/rubies/ruby-1.9.2-rc2/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /Users/seb/.rvm/rubies/ruby-1.9.2-rc2/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /Users/seb/.rvm/rubies/ruby-1.9.2-rc2/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (20.1ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Object#returning has been deprecated in favor of Object#tap. (called from extract_request_environment at /Users/seb/tmp/tmp/test_routing_filter/vendor/gems/routing-filter-0.1.6/lib/routing_filter/adapters/rails_2.rb:61)
+
+
+Processing PublicController#index (for 127.0.0.1 at 2010-09-09 11:19:38) [GET]
+Rendering public/index
+DEPRECATION WARNING: Object#returning has been deprecated in favor of Object#tap. (called from root_path at (eval):4)
+
+ActionView::TemplateError (wrong number of arguments (0 for 1)) on line #1 of app/views/public/index.html.erb:
+1: <%= root_path %>
+
+    vendor/gems/routing-filter-0.1.6/lib/routing_filter/filters/locale.rb:55:in `around_generate'
+    vendor/gems/routing-filter-0.1.6/lib/routing_filter/filter.rb:11:in `run'
+    vendor/gems/routing-filter-0.1.6/lib/routing_filter/chain.rb:9:in `run'
+    (eval):4:in `block in root_path'
+    (eval):4:in `root_path'
+    app/views/public/index.html.erb:1
+    <internal:prelude>:10:in `synchronize'
+    /Users/seb/.rvm/rubies/ruby-1.9.2-rc2/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /Users/seb/.rvm/rubies/ruby-1.9.2-rc2/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /Users/seb/.rvm/rubies/ruby-1.9.2-rc2/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (20.2ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
